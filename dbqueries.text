@@ -1,0 +1,9 @@
+-- //query to creation of database
+CREATE TABLE `id19172239_dare2complete`.`reservation` ( `id` INT(10) NOT NULL AUTO_INCREMENT , `seats` TEXT NOT NULL , `seat_count` INT(11) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+-- database structure
+reservation -> table name
+id-> primary ket
+seats -> seats numbers as per the booking
+seat_count -> count of seat as per the booking
+

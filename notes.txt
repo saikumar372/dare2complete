@@ -1,0 +1,35 @@
+webhost link -> https://dare2complete.000webhostapp.com/
+
+
+
+--Desciption
+input number -> kept limitation for input between 1 to 7
+
+Buttons configaration
+Book -> To book the tickets
+Delete -> To delete the whole data from the database
+Sample Data -> This button shows when there is no data in the database. It is used to insert some data in the data.
+
+
+Result  ->As per the question we have 80 seats , so make 12 rows (11*7 and 1 *3)
+
+Output Message -> 
+If input is greater then 7 or less then 0 -> Number of seats should be 1 to 7
+
+If input is greater then available seats -> Only X seats are available
+
+If 0 seats are available -> Seats are fulled.
+
+If we delete the data -> Data deleted successfully
+
+If we click on the sample data button-> Data inserted successfully.
+
+-- //query to creation of database
+CREATE TABLE `id19172239_dare2complete`.`reservation` ( `id` INT(10) NOT NULL AUTO_INCREMENT , `seats` TEXT NOT NULL , `seat_count` INT(11) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+-- database structure
+reservation -> table name
+id-> primary ket
+seats -> seats numbers as per the booking
+seat_count -> count of seat as per the booking
+
